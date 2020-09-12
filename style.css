@@ -1,0 +1,75 @@
+body {
+    background-color: #fd6dad;
+}
+
+.foot {width: 100%;
+    position: fixed;
+    bottom: 0;
+    align-self: flex-end;
+}
+
+
+.playing {
+    border-color: #028ae9;
+}
+.w{
+    position: absolute;
+    left: -85px;
+}
+.e{
+    position: absolute;
+    left: -55px;
+}
+.t{
+    position: absolute;
+    left: 25px;
+}
+.y{
+    position: absolute;
+    left: 55px;
+}
+.u{
+    position: absolute;
+    left: 85px;
+}
+
+.black-keys kbd {
+
+    position:relative;
+    top: 119px;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 120px;
+    background-color: #000000;
+    border-radius: 2px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 2px 0 0 rgba(62, 26, 26, 0.7) inset;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100px;
+    padding: 2px 4px;
+}
+
+.ghostKey {
+    visibility: hidden;
+}
+
+.white-keys kbd {
+    z-index: 1;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 200px;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;    color: #333;
+    font-size: xx-large;
+    font-weight: 700;
+    line-height: 350px;
+    padding: 2px 4px;
+    white-space: nowrap;
+}
